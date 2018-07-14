@@ -1,1 +1,5 @@
 # javaeeexercice
+
+HTML
+Servlet
+Tomcat
