@@ -1,5 +1,6 @@
 package idp.exerciceservlet;
 
+
 import java.io.IOException;
 
 import javax.servlet.ServletConfig;
@@ -15,6 +16,10 @@ import javax.servlet.http.HttpServletResponse;
 
 public class Portfilo extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String utilisateur;
 	
 	@Override
@@ -30,10 +35,8 @@ public class Portfilo extends HttpServlet {
 			throws ServletException, IOException {
 		ServletOutputStream out = response.getOutputStream();
 
-		String age = request.getParameter("age");
 		out.println("<html>");
 		out.println("<head><title>Bonjour " + this.utilisateur +"... </title></head>");
-
 		out.println("<body>");
 		out.println("<h2> Création de stagiaire par " + this.utilisateur + "</h2>");
 		out.println("</body>");
