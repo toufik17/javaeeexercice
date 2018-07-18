@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Confirmation Saisie</title>
+<title>Insert title here</title>
 </head>
 <body>
 <table border="1" cellpadding="3" cellspacing="2" width="90%"

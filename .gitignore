@@ -67,9 +67,15 @@ Temporary Items
 *.csr
 *.css
 *.htm
+<<<<<<< HEAD
 
 *.js
 
+=======
+*.html
+*.js
+
+>>>>>>> branch 'master' of https://github.com/toufik17/javaeeexercice.git
 *.php
 *.rss
 *.xhtml
