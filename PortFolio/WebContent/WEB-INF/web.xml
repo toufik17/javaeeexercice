@@ -85,6 +85,7 @@
 		
 	</security-constraint>
 	<login-config>
+<<<<<<< HEAD
 	 <auth-method>FORM</auth-method>
 	 <realm-name>Espace admin</realm-name>
 	 <form-login-config>
@@ -94,3 +95,9 @@
 	</login-config>
 	
 </web-app>
+=======
+	<auth-method>BASIC</auth-method>
+	</login-config>
+	
+</web-app>
+>>>>>>> branch 'master' of https://github.com/toufik17/javaeeexercice.git
