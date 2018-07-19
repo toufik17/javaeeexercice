@@ -8,7 +8,8 @@
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
 
-
+	
+	
 	<filter>
 		<filter-name>Journalisation</filter-name>
 		<filter-class>idp.exerciceservlet.filtre.JournalFiltre</filter-class>
@@ -67,4 +68,24 @@
 		<param-name>path_log</param-name>
 		<param-value>/Users/tham/eclipse-workspace/PortFolioLog/</param-value>
 	</context-param>
+	
+	<security-constraint>
+	
+		<web-resource-collection>
+			<web-resource-name>Partie admin</web-resource-name>
+			<url-pattern>/confirmation</url-pattern>
+	
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>administrateur</role-name>
+		</auth-constraint>
+		<user-data-constraint>
+		<transport-guarantee>NONE</transport-guarantee>
+		</user-data-constraint>
+		
+	</security-constraint>
+	<login-config>
+	<auth-method>BASIC</auth-method>
+	</login-config>
+	
 </web-app>
